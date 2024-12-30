@@ -12,7 +12,7 @@ export default function Contact() {
             I'd love to connect with you! Whether you have a question about my work, want to discuss a potential project, or just say hi, feel free to reach out on any of the platforms below.
           </p>
           <div className="flex justify-around mt-4">
-            <a href="https://www.linkedin.com/in/vishesh-sachan-0277ba32a/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
+            <a href="https://in.linkedin.com/in/vishesh-sachan-0277ba32a?trk=people-guest_people_search-card" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
               <FaLinkedin size={32} />
             </a>
             <a href="https://x.com/visheshsachan21" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600">

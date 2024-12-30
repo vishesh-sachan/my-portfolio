@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
   );
 
   return (
-    <nav className="w-full bg-gray-100 shadow-md">
+    <nav className="sticky top-0 w-full bg-gray-100 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/">
@@ -26,9 +26,6 @@ const Navbar: React.FC = () => {
             <Link href="/">
               <p className={getLinkClasses('/')}>Home</p>
             </Link>
-            <Link href="/about">
-              <p className={getLinkClasses('/about')}>About Me</p>
-            </Link>
             <Link href="/projects">
               <p className={getLinkClasses('/projects')}>Projects</p>
             </Link>
@@ -37,6 +34,9 @@ const Navbar: React.FC = () => {
             </Link>
             <Link href="/contact">
               <p className={getLinkClasses('/contact')}>Contact</p>
+            </Link>
+            <Link href="/about">
+              <p className={getLinkClasses('/about')}>About Me</p>
             </Link>
           </div>
           <div className="md:hidden flex items-center">
@@ -52,9 +52,6 @@ const Navbar: React.FC = () => {
             <Link href="/">
               <p className={getLinkClasses('/')}>Home</p>
             </Link>
-            <Link href="/about">
-              <p className={getLinkClasses('/about')}>About Me</p>
-            </Link>
             <Link href="/projects">
               <p className={getLinkClasses('/projects')}>Projects</p>
             </Link>
@@ -63,6 +60,9 @@ const Navbar: React.FC = () => {
             </Link>
             <Link href="/contact">
               <p className={getLinkClasses('/contact')}>Contact</p>
+            </Link>
+            <Link href="/about">
+              <p className={getLinkClasses('/about')}>About Me</p>
             </Link>
           </div>
         )}
